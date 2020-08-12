@@ -13,7 +13,11 @@
  - 回车发送信息
 
 部分功能实现：[https://blog.csdn.net/weixin_43950643/article/details/107923433](https://blog.csdn.net/weixin_43950643/article/details/107923433)
-如果对您对此项目有兴趣，可以点 “Star” 支持一下 谢谢！ _
+
+项目预览地址：[http://47.107.149.243/chatroom](http://47.107.149.243/chatroom)
+
+如果对您对此项目有兴趣，可以点 “Star” 支持一下 谢谢！ 
+
 如有问题请直接在评论中提出，或者您发现问题并有非常好的解决方案，欢迎评论
 ### 截图如下：
 登录：

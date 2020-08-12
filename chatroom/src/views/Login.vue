@@ -102,7 +102,7 @@ export default {
      * 聊天室的主要功能
      */
     // 1.连接服务器
-    this.socket = io('http://localhost:3000')
+    this.socket = io('http://localhost:3100')
     // 2.监听登录失败的请求
     this.socket.on('userExit', (data) => alert(data.msg))
     // 3.监听登录成功的请求

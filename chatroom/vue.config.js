@@ -1,6 +1,6 @@
 module.exports = {
-  outputDir:__dirname + "/../service/web",
+  outputDir:__dirname + "/../service/chatroom",
   publicPath: process.env.NODE_ENV === 'production'
-  ? '/web/'
+  ? '/chatroom/'
   : '/'
 }

@@ -11,7 +11,7 @@ const io = require('socket.io')(server);
 
 //记录所有已经登录的用户
 const userList = []
-app.use('/chatroom',express.static(path.join(__dirname,'/web')))
+app.use('/chatroom',express.static(path.join(__dirname,'/chatroom')))
 io.on('connection', socket =>{
   socket.on("login",data => {
     // 判断，如果data在userList数组中存在，说明该用户已经登录，不允许登录
@@ -54,6 +54,6 @@ io.on('connection', socket =>{
   })
 });
 
-server.listen(3000, function () {
-  console.log('服务端启动成功！端口3000');
+server.listen(3100, function () {
+  console.log('服务端启动成功！端口3100');
 });

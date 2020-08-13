@@ -19,6 +19,16 @@
 如果对您对此项目有兴趣，可以点 “Star” 支持一下 谢谢！ 
 
 如有问题请直接在评论中提出，或者您发现问题并有非常好的解决方案，欢迎评论
+
+前端运行：
+```javascript
+npm install
+npm  run serve
+```
+后端运行：
+```javascript
+node app.js
+```
 ### 截图如下：
 登录：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200812150953523.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzk1MDY0Mw==,size_16,color_FFFFFF,t_70#pic_center)

@@ -20,12 +20,12 @@
 
 如有问题请直接在评论中提出，或者您发现问题并有非常好的解决方案，欢迎评论
 
-前端运行：
+前端(chatroom文件)运行：
 ```javascript
 npm install
 npm  run serve
 ```
-后端运行：
+后端(service文件)运行：
 ```javascript
 node app.js
 ```
